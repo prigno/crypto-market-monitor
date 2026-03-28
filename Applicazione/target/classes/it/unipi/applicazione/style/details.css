@@ -1,0 +1,102 @@
+.scroll-pane {
+    -fx-background-color: whitesmoke;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: whitesmoke;
+}
+
+VBox {
+    -fx-spacing: 12px;
+}
+
+HBox {
+    -fx-spacing: 10px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.static-label {
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.dynamic-label {
+    -fx-text-fill: darkblue;
+    -fx-font-size: 14px;
+}
+
+.hyperlink {
+    -fx-text-fill: blue;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: darkblue;
+}
+
+.text-area {
+    -fx-control-inner-background: whitesmoke;
+    -fx-text-fill: black;
+    -fx-border-color: blue;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.chart {
+    -fx-background-color: whitesmoke;
+}
+
+.chart-plot-background {
+    -fx-background-color: whitesmoke;
+}
+
+.chart-horizontal-grid-lines,
+.chart-vertical-grid-lines {
+    -fx-stroke: lightblue;
+}
+
+.axis-label {
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+}
+
+.chart-title {
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 1px;
+    -fx-stroke: blue;
+}
+
+.radio-button {
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+}
+
+.radio-button:selected {
+    -fx-text-fill: darkblue;
+}
+
+.grid-pane {
+    -fx-background-color: white;
+    -fx-border-color: blue;
+    -fx-border-radius: 4px;
+    -fx-padding: 8px;
+}
+
+.last-hbox {
+    -fx-spacing: 100px;
+    -fx-alignment: TOP_CENTER;
+}
+
+.tooltip {
+    -fx-background-color: white;
+    -fx-text-fill: navy;
+    -fx-font-size: 12px;
+    -fx-padding: 6px;
+    -fx-border-color: lightblue;
+    -fx-border-radius: 4px;
+}

@@ -1,0 +1,46 @@
+.border-pane {
+    -fx-background-color: lightblue;
+}
+
+.title {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: darkblue;
+    -fx-font-family: "Arial Black";
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: darkgray;
+}
+
+.primary-button {
+    -fx-font-size: 18px;
+    -fx-background-color: steelblue;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-padding: 16 40 16 40;
+}
+
+.primary-button:hover {
+    -fx-background-color: dodgerblue;
+}
+
+.secondary-button {
+    -fx-font-size: 18px;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: darkblue;
+    -fx-background-radius: 20;
+    -fx-padding: 16 40 16 40;
+}
+
+.secondary-button:hover {
+    -fx-background-color: lightgray;
+}
+
+.status {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: steelblue;
+    -fx-padding: 8 20 8 20;
+}

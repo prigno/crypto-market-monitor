@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane stylesheets="@style/list.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.applicazione.FavoritesController">
+    <top>
+        <HBox alignment="CENTER">
+            <children>
+                <Label styleClass="title-label" text="Preferiti" />
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="15.0" top="15.0" />
+            </BorderPane.margin>
+        </HBox>
+    </top>
+    <center>
+        <TableView fx:id="favoritesTable">
+            <contextMenu>
+                <ContextMenu>
+                    <items>
+                        <MenuItem onAction="#removeFromFavorites" text="Rimuovi dai preferiti" />
+                        <MenuItem onAction="#showDetails" text="Dettagli" />
+                    </items>
+                </ContextMenu>
+            </contextMenu>
+        </TableView>
+    </center>
+    <bottom>
+        <HBox alignment="TOP_CENTER" spacing="25.0" BorderPane.alignment="TOP_CENTER">
+            <children>
+                <Button fx:id="homeButton" onAction="#switchToMain" text="Pagina principale" />
+                <Button onAction="#removeAllFavorites" text="Rimuovi tutte" />
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="15.0" top="15.0" />
+            </BorderPane.margin>
+        </HBox>
+    </bottom>
+</BorderPane>
