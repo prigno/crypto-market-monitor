@@ -5,7 +5,7 @@ Java desktop application for monitoring real-time cryptocurrency market data thr
 This project is a desktop application built with **JavaFX** and **Spring** that allows users to monitor the performance of major cryptocurrencies using real-time market data. The application provides dynamic visualizations across different time intervals and implements a custom **web caching strategy** to reduce redundant API calls and improve performance.
 
 ## Documentation
-A detailed project report (in Italian) is available in the `docs/` folder.
+A detailed project report (in English and Italian) is available in the `docs/` folder.
 
 ## Features
 - Real-time cryptocurrency data retrieval through external APIs
